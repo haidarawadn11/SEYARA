@@ -1,8 +1,40 @@
-{
-	"folders": [
-		{
-			"path": "."
-		}
-	],
-	"settings": {}
-}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sedans</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="topbar">
+  <div class="logo">LOGO</div>
+  <div class="brand">SEYARA</div>
+</div>
+
+<div class="nav">
+  <a href="index.html">Home</a>
+  <a href="sedans.html">Sedans</a>
+  <a href="suvs.html">SUVs</a>
+  <a href="luxury.html">Luxury</a>
+</div>
+
+<div class="hero">
+  <img src="home.jpg">
+</div>
+
+<div class="car-row">
+  <div class="car" onclick="show(0)"><img src="2026-cla.jpg"></div>
+  <div class="car" onclick="show(1)"><img src="2026-eqe.jpg"></div>
+  <div class="car" onclick="show(2)"><img src="2026-sclass.jpg"></div>
+</div>
+
+<div class="info">
+  <h2 id="name">Click a car</h2>
+  <p id="desc"></p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
